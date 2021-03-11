@@ -197,7 +197,7 @@ a {
   &:hover {
     color: $secondary;
   }
-  color: #fff;
+  color: $navLink;
 }
 
 .navbar-header {
@@ -208,7 +208,7 @@ a.navbar-brand {
   line-height: 25px;
   padding-top: 12px;
   white-space: nowrap;
-  color: #fff !important;
+  color: #000 !important;
   cursor: pointer !important;
   background: darken($secondary, 10%) !important;
 
